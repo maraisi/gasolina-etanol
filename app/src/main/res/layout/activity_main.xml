@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_titulo"
+        android:textSize="16dp"
+        android:textColor="@color/colorPreto"/>
+
+    <ImageView
+        android:id="@+id/iv_etanol"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/etanol" />
+
+
+    <EditText
+        android:id="@+id/et_etanol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="digite o preço do etanol"
+        android:inputType="numberDecimal"/>
+
+    <ImageView
+        android:id="@+id/iv_gasolina"
+        android:layout_marginTop="10dp"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/gasolina"
+        />
+
+    <EditText
+        android:id="@+id/et_gasolina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="digite o preço da gasolina"
+        android:inputType="numberDecimal"
+        />
+
+
+    <Button
+        android:id="@+id/btn_comparar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_comparar"
+        android:background="@color/colorAmarelo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resultado"
+        android:textColor="@color/colorPreto"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        />
+
+    <ImageView
+        android:id="@+id/iv_resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="15dp"
+        />
+
+
+
+</LinearLayout>

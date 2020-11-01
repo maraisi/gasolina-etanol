@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Etanol ou Gasolina?</string>
+    <string name ="tv_titulo">Informe o preço do etanol e da gasolina para comparar</string>
+    <string name ="btn_comparar">Comparar o preço</string>
+    <string name="resultado">Resultado</string>
+
+</resources>
